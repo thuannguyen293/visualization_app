@@ -1,0 +1,90 @@
+.grch-file-icon:before {
+  content: " ";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url("https://d177g53udii011.cloudfront.net/redesign2016/images/icons-set/blau/file/dokumente.svg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 24px;
+  margin-top: -3px;
+  margin-right: 3px;
+  vertical-align: middle;
+}
+
+.grch-file-icon.grch-pdf:before {
+  background-image: url("https://d177g53udii011.cloudfront.net/redesign2016/images/icons-set/blau/file/pdf.svg");
+}
+
+.grch-file-icon.grch-word:before {
+  background-image: url("https://d177g53udii011.cloudfront.net/redesign2016/images/icons-set/blau/file/word.svg");
+}
+
+.grch-file-icon.grch-powerpoint:before {
+  background-image: url("https://d177g53udii011.cloudfront.net/redesign2016/images/icons-set/blau/file/power-point.svg");
+}
+
+.grch-file-icon.grch-excel:before {
+  background-image: url("https://d177g53udii011.cloudfront.net/redesign2016/images/icons-set/blau/file/excel.svg");
+  background-size: 20px;
+}
+
+.grch-file-icon a.txt .icon {
+  background-image: url("https://d177g53udii011.cloudfront.net/redesign2016/images/icons-set/blau/file/text.svg");
+}
+
+.grch-file-icon.grch-image:before {
+  background-image: url("https://d177g53udii011.cloudfront.net/redesign2016/images/icons-set/blau/file/image.svg");
+}
+
+.grch-arrow-icon:before {
+  content: " ";
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url("https://d177g53udii011.cloudfront.net/redesign2016/images/icons-set/blau/arrows/pfeil-left.svg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 32px;
+  margin-top: 0;
+  margin-right: 0;
+  vertical-align: middle;
+}
+
+.grch-arrow-icon.grch-large-arrow:before {
+  width: 48px;
+  height: 48px;
+  background-size: 48px;
+}
+
+.grch-arrow-icon.grch-single-arrow-left:before {
+  background-image: url("https://d177g53udii011.cloudfront.net/redesign2016/images/icons-set/blau/arrows/pfeil-left.svg");
+}
+
+.grch-arrow-icon.grch-single-arrow-right:before {
+  background-image: url("https://d177g53udii011.cloudfront.net/redesign2016/images/icons-set/blau/arrows/pfeil-right.svg");
+}
+
+.grch-arrow-icon.grch-single-arrow-up:before {
+  background-image: url("https://d177g53udii011.cloudfront.net/redesign2016/images/icons-set/blau/arrows/pfeil-top.svg");
+}
+
+.grch-arrow-icon.grch-single-arrow-down:before {
+  background-image: url("https://d177g53udii011.cloudfront.net/redesign2016/images/icons-set/blau/arrows/pfeil-bottom.svg");
+}
+
+.grch-arrow-icon.grch-double-arrow-left:before {
+  background-image: url("https://d177g53udii011.cloudfront.net/redesign2016/images/icons-set/blau/arrows/pfeile-left.svg");
+}
+
+.grch-arrow-icon.grch-double-arrow-right:before {
+  background-image: url("https://d177g53udii011.cloudfront.net/redesign2016/images/icons-set/blau/arrows/pfeile-right.svg");
+}
+
+.grch-arrow-icon.grch-double-arrow-up:before {
+  background-image: url("https://d177g53udii011.cloudfront.net/redesign2016/images/icons-set/blau/arrows/pfeile-top.svg");
+}
+
+.grch-arrow-icon.grch-double-arrow-down:before {
+  background-image: url("https://d177g53udii011.cloudfront.net/redesign2016/images/icons-set/blau/arrows/pfeile-bottom.svg");
+}

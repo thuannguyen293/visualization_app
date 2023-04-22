@@ -1,0 +1,30 @@
+button,
+[type=button],
+[type=submit],
+[type=reset],
+a.button {
+  display: inline-block;
+  color: #fff;
+  font-size: 0.875rem;
+  padding: .5rem 1.5rem .5rem .5rem;
+  text-decoration: none;
+  background-color: #0069B4;
+  border: 1px solid #0069B4;
+  cursor: pointer;
+  background-image: url(https://d177g53udii011.cloudfront.net/redesign2016/images/icons-set/weiss/arrows/pfeile-right.svg);
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-position: right -24px center;
+  background-origin: content-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 0;
+}
+
+button:hover,
+[type=button]:hover,
+[type=submit]:hover,
+[type=reset]:hover,
+a.button:hover {
+  text-decoration: none;
+}

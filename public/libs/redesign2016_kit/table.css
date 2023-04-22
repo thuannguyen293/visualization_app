@@ -1,0 +1,55 @@
+table.grch-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 10px 0;
+}
+
+table.grch-table.grch-responsive-table {
+  overflow: auto;
+  overflow-y: hidden;
+  overflow-x: auto;
+  display: block;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  table.grch-table.grch-responsive-table {
+    display: table;
+  }
+}
+
+table.grch-table.grch-mark-alternate-row tr:nth-child(odd) td {
+  background: #E6F0F8;
+}
+
+table.grch-table.grch-hover-tr tr:hover td {
+  background: #DADADA;
+}
+
+table.grch-table th {
+  background: #0069B4;
+  color: #fff;
+  padding: 8px 4px;
+  text-align: left;
+}
+
+table.grch-table th a, table.grch-table th a:hover, table.grch-table th a:visited, table.grch-table th a:active {
+  color: #fff;
+}
+
+table.grch-table td {
+  padding: 8px 4px;
+  background: #fff;
+}
+
+table.grch-table th.left, table.grch-table td.left {
+  text-align: left;
+}
+
+table.grch-table th.center, table.grch-table td.center {
+  text-align: center;
+}
+
+table.grch-table th.right, table.grch-table td.right {
+  text-align: right;
+}
